@@ -1,0 +1,29 @@
+.menu{
+    padding-top: 5px;
+    background-image: linear-gradient(to right, rgb(13, 0, 44),black );
+    display: flex;
+    place-items: left;
+    flex-wrap:wrap;
+    place-content: left;
+    flex-direction:row;
+    direction: ltr;
+
+}
+.menu ul{
+    display: flex;
+    text-align: center; 
+}
+.menu ul li{
+    display: flex;
+}
+.menu a{
+    padding: 8px 10px;
+    color:rgb(179, 179, 179);
+    text-decoration: none;
+    text-decoration: bold;
+    transition: .3s;
+    font-weight:bolder;
+}
+.menu a:hover{
+    color:rgb(45, 94, 255);    
+}
