@@ -7,7 +7,7 @@
     list-style: none;
 }
 body {
-    background: url("")
+    background: url("https://sergioprado.org/wp-content/uploads/2018/03/git-logo2.jpeg")
     no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,7 +41,7 @@ h1{
 
 h2{
     font-size: 1.5em;
-    color:red
+    color:rgb(240,79,51)
 }
 
 .logo{
