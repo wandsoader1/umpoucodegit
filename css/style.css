@@ -1,6 +1,40 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    font-size: unset;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+h2{
+    font-size: 1.5em;
+    color:rgb(132, 139, 134);
+}
+
+.logo{
+    height: 60px;
+}
+
+.logo img{
+    width: auto;
+    height: 100%;
+}
+
+.title-h1 {
+    width: 90%;
+    margin: 0 auto;
+}
 .menu{
     padding-top: 5px;
-    background-image: linear-gradient(to right, rgb(13, 0, 44),black );
+    background-image: linear-gradient(to right, rgb(16, 2, 49),black );
     display: flex;
     place-items: left;
     flex-wrap:wrap;
@@ -18,12 +52,37 @@
 }
 .menu a{
     padding: 8px 10px;
-    color:rgb(179, 179, 179);
+    color:rgb(132, 139, 134);
     text-decoration: none;
     text-decoration: bold;
     transition: .3s;
     font-weight:bolder;
 }
 .menu a:hover{
-    color:rgb(45, 94, 255);    
+    color:rgb(233, 236, 247);    
+}
+footer{
+    height: auto;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}    
+*::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0, 0.5);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(103, 94, 87);
+    border-radius: 5px;
+}
+.description{
+    animation: 1s;
+    margin: 2vw 4vw 2vw;
+    background-color: var(--color-description);
+    padding: 2%;
+    border-radius: 5px;
 }
