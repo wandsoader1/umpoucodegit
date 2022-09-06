@@ -6,6 +6,31 @@
     box-sizing: border-box;
     list-style: none;
 }
+body {
+    background: url("https://sergioprado.org/wp-content/uploads/2018/03/git-logo2.jpeg")
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:var(--black-body);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+}
+.background-color-text{
+    animation: 1s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+    opacity: 85%;
+    margin: 0;
+    padding: 1%;
+}
 header{
     font-size: unset;
 }
@@ -16,7 +41,8 @@ h1{
 
 h2{
     font-size: 1.5em;
-    color:rgb(132, 139, 134);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color:rgb(240,79,51)
 }
 
 .logo{
@@ -34,7 +60,7 @@ h2{
 }
 .menu{
     padding-top: 5px;
-    background-image: linear-gradient(to right, rgb(16, 2, 49),black );
+    background-image: linear-gradient(to right, rgb(67, 64, 64),rgb(0, 0, 0) );
     display: flex;
     place-items: left;
     flex-wrap:wrap;
@@ -52,7 +78,8 @@ h2{
 }
 .menu a{
     padding: 8px 10px;
-    color:rgb(132, 139, 134);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color:rgb(240,79,51);
     text-decoration: none;
     text-decoration: bold;
     transition: .3s;
@@ -76,10 +103,11 @@ footer{
     background: rgb(0, 0, 0, 0.5);
 }
 *::-webkit-scrollbar-thumb {
-    background-color: rgb(103, 94, 87);
+    background-color: rgb(240,79,51);
     border-radius: 5px;
 }
 .description{
+    text-shadow: 0.1em 0.1em 0.2em black;
     animation: 1s;
     margin: 2vw 4vw 2vw;
     background-color: var(--color-description);
