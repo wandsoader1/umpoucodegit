@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Contato</title>
+</head>
+<nav class = "menu">
+    <ul>
+        <li><a href="https://git-scm.com/downloads" title="download do git">FAÇA DOWNLOAD DO GIT</a></li>
+        <li><a href="index.html" title="Página Inicial">COMANDOS DO GIT</a></li>
+        <li><a href="historia.html" title="Página da historia">HISTÓRIA DO GIT</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA" title="playlist de git">VIDEOS SOBRE GIT</a></li>
+        <li><a href="contato.html" title="página de contato">CONTATO</a></li>
+    </ul>
+</nav>
+<div class="container">
+    
+    <form id="formu" name="meu_form">
+    
+        <h1 id ="h1">FALE CONOSCO</h1>
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nomeid" placeholder="Seu Nome" required="required" name="nome" />
+        <br>
+        
+        <label for="fone">Fone</label>
+        <input type="tel" id="id" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        <br>
+        
+        <label for="email">Email</label>
+        <input type="email" id="id" placeholder="SeuEmail@mail.com" name="email" />
+        <br>
+        
+    
+        <textarea id="areatxt" placeholder="Deixe sua opnião" rows="3"></textarea>
+        <br>
+    
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+    </form>
+    <script src="js/contato.js"></script>
+</div>
+<footer class="end-page">
+    <p id="footer">criado por wandsoader1 <b>©</b></p>
+</footer>
