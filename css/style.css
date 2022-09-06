@@ -41,6 +41,7 @@ h1{
 
 h2{
     font-size: 1.5em;
+    text-shadow: 0.1em 0.1em 0.2em black;
     color:rgb(240,79,51)
 }
 
@@ -77,6 +78,7 @@ h2{
 }
 .menu a{
     padding: 8px 10px;
+    text-shadow: 0.1em 0.1em 0.2em black;
     color:rgb(240,79,51);
     text-decoration: none;
     text-decoration: bold;
@@ -105,6 +107,7 @@ footer{
     border-radius: 5px;
 }
 .description{
+    text-shadow: 0.1em 0.1em 0.2em black;
     animation: 1s;
     margin: 2vw 4vw 2vw;
     background-color: var(--color-description);
