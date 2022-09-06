@@ -44,16 +44,6 @@ h2{
     text-shadow: 0.1em 0.1em 0.2em black;
     color:rgb(240,79,51)
 }
-
-.logo{
-    height: 60px;
-}
-
-.logo img{
-    width: auto;
-    height: 100%;
-}
-
 .title-h1 {
     width: 90%;
     margin: 0 auto;
@@ -113,4 +103,67 @@ footer{
     background-color: var(--color-description);
     padding: 2%;
     border-radius: 5px;
+}
+.code {
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.comment {
+    color:rgb(20, 119, 0);
+    font-size: 16px;
+}
+.container{
+    max-width: 720px;
+}
+h1{
+    background-image: linear-gradient(to right, rgb(67, 64, 64),rgb(0, 0, 0) );
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 25px;
+    min-width: 10rem;
+    max-width: 20rem;
+    padding: 10px 66.17px;
+    color: rgb(240,79,51);
+}
+
+p{
+    padding: 15px;
+    min-width: 50vmin;
+    max-width: 40vmax;
+}
+
+form {
+    display: flex;
+    place-content: center center;
+    direction: ltr;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px;
+    max-width: 20rem;
+    background-color: #b9b6c1;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#nomeid, #id{
+    min-width: 25vmin;
+    max-width: 40vmin;
+}
+#nomeid, #id, .enviar, textarea {
+
+    display: flex;
+    padding: 10px;
+    outline: none;
+    font-size: 13px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+textarea{
+    
+    min-width: 25vmin;
+    max-width: 40vmin;
+    min-height: 5rem;
 }
