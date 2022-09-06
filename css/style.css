@@ -127,13 +127,6 @@ h1{
     padding: 10px 66.17px;
     color: rgb(240,79,51);
 }
-
-p{
-    padding: 15px;
-    min-width: 50vmin;
-    max-width: 40vmax;
-}
-
 form {
     display: flex;
     place-content: center center;
@@ -167,3 +160,9 @@ textarea{
     max-width: 40vmin;
     min-height: 5rem;
 }
+p{
+    padding: 100px;
+    min-width: 50vmin;
+    max-width: 40vmax;
+}
+
